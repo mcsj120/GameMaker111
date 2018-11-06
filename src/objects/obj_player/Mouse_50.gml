@@ -13,7 +13,7 @@ if (canShoot && !isMoving){
 	
 	
 	// Set direction of sprite (attack motion)
-	if (mouseDirection >= -315 && mouseDirection <= 45){
+	if (mouseDirection >= 315 || mouseDirection <= 45){
 		sprite_index = spr_player_attack_east
 		image_speed = 1
 	} else if (mouseDirection > 45 && mouseDirection < 135){
@@ -25,7 +25,7 @@ if (canShoot && !isMoving){
 	} else if (mouseDirection > 225 && mouseDirection < 315){
 		sprite_index = spr_player_attack_south
 		image_speed = 1
-	} else {
+	} else if (mouseDirection > 225 && mouseDirection < 315){
 		sprite_index = spr_player_attack_south
 		image_speed = 1
 	}

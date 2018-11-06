@@ -1,5 +1,5 @@
-/// @description Return to normal
-switch (sprite_index){
+/// @description Return to normal sprite
+switch (sprite_index){ 
 	case spr_player_attack_east:
 	sprite_index = spr_player_walk_east
 	image_index = 0

@@ -25,96 +25,6 @@
             "m_owner": "37ddd628-bd78-4e19-9805-3890440dcbf5"
         },
         {
-            "id": "0bb0a115-6452-4c3b-b2d3-13802b6249cb",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 87,
-            "eventtype": 10,
-            "m_owner": "37ddd628-bd78-4e19-9805-3890440dcbf5"
-        },
-        {
-            "id": "eedacb11-8a1f-40c2-8321-4765f6df90df",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 65,
-            "eventtype": 10,
-            "m_owner": "37ddd628-bd78-4e19-9805-3890440dcbf5"
-        },
-        {
-            "id": "58cd913a-6b37-414c-b4e6-8387fbe7f57e",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 83,
-            "eventtype": 10,
-            "m_owner": "37ddd628-bd78-4e19-9805-3890440dcbf5"
-        },
-        {
-            "id": "e2a045ec-76cf-49ce-9fc4-b5a9b6afe430",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 68,
-            "eventtype": 10,
-            "m_owner": "37ddd628-bd78-4e19-9805-3890440dcbf5"
-        },
-        {
-            "id": "79e500e1-d9b0-4b7b-852e-f0c4fcae129c",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 65,
-            "eventtype": 5,
-            "m_owner": "37ddd628-bd78-4e19-9805-3890440dcbf5"
-        },
-        {
-            "id": "4cdf1f9c-6a58-4db7-a9eb-f68a87037582",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 83,
-            "eventtype": 5,
-            "m_owner": "37ddd628-bd78-4e19-9805-3890440dcbf5"
-        },
-        {
-            "id": "e10ac658-8ae5-4706-b223-714ddfe82e91",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 68,
-            "eventtype": 5,
-            "m_owner": "37ddd628-bd78-4e19-9805-3890440dcbf5"
-        },
-        {
-            "id": "0ee6cb47-af9c-4f5e-95e3-86a508189b09",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 87,
-            "eventtype": 5,
-            "m_owner": "37ddd628-bd78-4e19-9805-3890440dcbf5"
-        },
-        {
-            "id": "75740eac-a6b4-4721-ae35-8fb6cb1abb1a",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 7,
-            "eventtype": 6,
-            "m_owner": "37ddd628-bd78-4e19-9805-3890440dcbf5"
-        },
-        {
             "id": "5eec69f6-0a1a-43a1-88e0-572ff9f28b70",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -162,6 +72,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 57,
             "eventtype": 6,
+            "m_owner": "37ddd628-bd78-4e19-9805-3890440dcbf5"
+        },
+        {
+            "id": "831f0a43-2fd9-459e-a9e5-902dfdce9523",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
             "m_owner": "37ddd628-bd78-4e19-9805-3890440dcbf5"
         }
     ],
@@ -263,7 +183,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "1000",
-            "varName": "health",
+            "varName": "hp",
             "varType": 0
         }
     ],

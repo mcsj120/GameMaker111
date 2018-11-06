@@ -1,4 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-shotDelay = 0.5
-image_speed = 1
+/// @description Revert changes from colliding with mysterious herb
+shotDelay *= 2
+image_speed *= 0.5

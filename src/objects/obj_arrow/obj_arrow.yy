@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_arrow",
     "eventList": [
-        
+        {
+            "id": "827111bb-fcae-4525-8cab-f54a344505c9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 40,
+            "eventtype": 7,
+            "m_owner": "389101e7-936e-4b0b-8285-f59eb320c3b4"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -34,7 +43,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "100",
-            "varName": "arrow_damage",
+            "varName": "arrowDamage",
             "varType": 1
         }
     ],
