@@ -11,6 +11,7 @@ instance_destroy(other)
 // the enemy has died; stop movement and switch to death sprite.
 if (hitPoints <= 0){
 	walkSpeed = 0
+	speed = 0
 	sprite_index = spr_death
 	
 // Otherwise, the enemy stops following the path and starts following

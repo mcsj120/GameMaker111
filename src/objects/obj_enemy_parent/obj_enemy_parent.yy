@@ -323,6 +323,20 @@
             "value": "0",
             "varName": "attackDelay",
             "varType": 0
+        },
+        {
+            "id": "1dd53dd1-87d8-4260-9fe5-3cdaea699ee5",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "obj_coin_copper",
+            "varName": "obj_coin",
+            "varType": 5
         }
     ],
     "solid": false,

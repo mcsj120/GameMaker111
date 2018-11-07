@@ -119,6 +119,14 @@
             "objectId": "0cf84a0c-14a7-4bf2-aa3a-1768e2c6a6ca",
             "propertyId": "a3b092e1-4803-4cde-a72e-e53bc9b41dee",
             "value": "2"
+        },
+        {
+            "id": "5c9173fb-386a-421b-a88a-c9b7b1929f38",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "0cf84a0c-14a7-4bf2-aa3a-1768e2c6a6ca",
+            "propertyId": "1dd53dd1-87d8-4260-9fe5-3cdaea699ee5",
+            "value": "obj_coin_silver"
         }
     ],
     "parentObjectId": "0cf84a0c-14a7-4bf2-aa3a-1768e2c6a6ca",

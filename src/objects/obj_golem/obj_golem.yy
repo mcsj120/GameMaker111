@@ -126,7 +126,15 @@
             "mvc": "1.0",
             "objectId": "0cf84a0c-14a7-4bf2-aa3a-1768e2c6a6ca",
             "propertyId": "bcb7a03e-4975-479e-bbad-fe015573fe01",
-            "value": "25"
+            "value": "40"
+        },
+        {
+            "id": "39e82838-8b93-4b83-97ce-001c03e707cb",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "0cf84a0c-14a7-4bf2-aa3a-1768e2c6a6ca",
+            "propertyId": "1dd53dd1-87d8-4260-9fe5-3cdaea699ee5",
+            "value": "obj_coin_gold"
         }
     ],
     "parentObjectId": "0cf84a0c-14a7-4bf2-aa3a-1768e2c6a6ca",
