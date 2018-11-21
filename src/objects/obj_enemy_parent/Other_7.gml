@@ -1,6 +1,7 @@
 /// @description If the death sprite is being used, destroy the enemy
 if (sprite_index == spr_death){
 	instance_create_layer(x, y, "Instances", obj_coin)
+	score += 1
 	instance_destroy()
 }
 

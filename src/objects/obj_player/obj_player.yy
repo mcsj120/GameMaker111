@@ -25,16 +25,6 @@
             "m_owner": "37ddd628-bd78-4e19-9805-3890440dcbf5"
         },
         {
-            "id": "5eec69f6-0a1a-43a1-88e0-572ff9f28b70",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 56,
-            "eventtype": 6,
-            "m_owner": "37ddd628-bd78-4e19-9805-3890440dcbf5"
-        },
-        {
             "id": "1d653145-acfc-434c-aacb-8bb7c4c945be",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -185,6 +175,20 @@
             "value": "1000",
             "varName": "hp",
             "varType": 0
+        },
+        {
+            "id": "503b8d0d-f278-4cd3-94bc-7557a7baf5c7",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "diagonalMovement",
+            "varType": 3
         }
     ],
     "solid": false,

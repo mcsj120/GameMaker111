@@ -11,7 +11,6 @@ if (canShoot && !isMoving){
 	// Play sound effect
 	audio_play_sound(sfx_recurve_bow, 1, 0)
 	
-	
 	// Set direction of sprite (attack motion)
 	if (mouseDirection >= 315 || mouseDirection <= 45){
 		sprite_index = spr_player_attack_east

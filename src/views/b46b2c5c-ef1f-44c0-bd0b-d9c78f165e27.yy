@@ -8,7 +8,8 @@
         "f17a8e3f-f6e3-4361-b6a1-3dcfced7e9e2",
         "3827f79a-d575-4ce9-a561-b9bfd500ab4a",
         "f3871d67-752d-4e23-aacb-05eec5d89bd0",
-        "4de96683-f1fb-49ca-80a1-01f131192bef"
+        "4de96683-f1fb-49ca-80a1-01f131192bef",
+        "796f8fe5-23b3-421d-8017-27ae9ac0dfb4"
     ],
     "filterType": "GMObject",
     "folderName": "Towers",

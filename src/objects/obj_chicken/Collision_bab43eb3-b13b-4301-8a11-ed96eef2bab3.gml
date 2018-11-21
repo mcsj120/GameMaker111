@@ -12,4 +12,4 @@ if (sprite_index == spr_chicken_eat_east){
 	spriteDirection = 1
 	sprite_index = spr_explosion
 } 
-	
+solid = false

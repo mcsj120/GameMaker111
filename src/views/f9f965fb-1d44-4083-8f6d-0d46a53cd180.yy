@@ -8,7 +8,8 @@
         "43fc220b-1924-4d00-a5b8-fb28d560fc7d",
         "aabce943-76b5-4861-a593-c895fbf23abf",
         "c0c7e703-b2f2-4db6-a3d8-240b507f21fd",
-        "a318593e-5cbb-475b-988f-20f6a5865ff0"
+        "a318593e-5cbb-475b-988f-20f6a5865ff0",
+        "43b30dcd-3caf-4481-9464-d0b6bbbbeb10"
     ],
     "filterType": "GMObject",
     "folderName": "Powerups & Coins",
