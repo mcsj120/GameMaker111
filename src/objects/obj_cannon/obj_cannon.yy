@@ -5,16 +5,6 @@
     "name": "obj_cannon",
     "eventList": [
         {
-            "id": "4ad55a98-c139-4e68-9292-b3fa2de182dd",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "f17a8e3f-f6e3-4361-b6a1-3dcfced7e9e2"
-        },
-        {
             "id": "e40a4153-da17-4df8-af9f-3ddbdc75acbd",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -22,16 +12,6 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "f17a8e3f-f6e3-4361-b6a1-3dcfced7e9e2"
-        },
-        {
-            "id": "14dc0df3-a03a-4b41-b4d4-21ef2743e5f5",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
             "m_owner": "f17a8e3f-f6e3-4361-b6a1-3dcfced7e9e2"
         }
     ],
@@ -85,7 +65,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": false,
+    "solid": true,
     "spriteId": "5fb15b90-866d-4caa-8167-5ed13c584d35",
     "visible": true
 }

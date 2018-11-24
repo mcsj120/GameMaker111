@@ -5,16 +5,6 @@
     "name": "obj_mage_tower",
     "eventList": [
         {
-            "id": "d5e0e43e-0064-425d-b6fb-690dd36efe3f",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "4de96683-f1fb-49ca-80a1-01f131192bef"
-        },
-        {
             "id": "3d86a780-299e-4b3c-bbdb-c9c1f3b5045c",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -22,16 +12,6 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "4de96683-f1fb-49ca-80a1-01f131192bef"
-        },
-        {
-            "id": "862f1e7a-e5c1-4f33-8122-49899ca5e078",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
             "m_owner": "4de96683-f1fb-49ca-80a1-01f131192bef"
         }
     ],
@@ -85,7 +65,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": false,
+    "solid": true,
     "spriteId": "add8482c-70a2-436f-b9b0-63a370c62d3f",
     "visible": true
 }

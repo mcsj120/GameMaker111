@@ -5,17 +5,7 @@
     "name": "obj_mortar_tower",
     "eventList": [
         {
-            "id": "2b831d3c-e9c0-4bcc-86f8-b02db6f315ea",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "796f8fe5-23b3-421d-8017-27ae9ac0dfb4"
-        },
-        {
-            "id": "062d4634-fbb3-4988-a296-b94cc89331da",
+            "id": "bf722725-5414-46fd-b348-b9b52bd43f53",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -75,7 +65,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": false,
+    "solid": true,
     "spriteId": "ea2232b7-54ca-4622-be13-85c34f9b2735",
     "visible": true
 }

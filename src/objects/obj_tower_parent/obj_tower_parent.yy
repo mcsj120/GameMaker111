@@ -5,13 +5,13 @@
     "name": "obj_tower_parent",
     "eventList": [
         {
-            "id": "684be4ab-3f2f-4a32-b121-b76f924395a3",
+            "id": "9aa72962-45e5-4e57-bba4-aa6cc1c28974",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
+            "eventtype": 2,
             "m_owner": "2984c293-f411-4927-acd3-337c52528c11"
         }
     ],
@@ -44,7 +44,7 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "range",
-            "varType": 0
+            "varType": 1
         },
         {
             "id": "13aa53a0-0c28-456e-8c59-5e92f811f3a8",
@@ -72,7 +72,7 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "damage",
-            "varType": 0
+            "varType": 1
         },
         {
             "id": "2d4e5fca-9fb6-464b-82ae-b6233074f1ac",
@@ -85,8 +85,8 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "Price",
-            "varType": 0
+            "varName": "price",
+            "varType": 1
         },
         {
             "id": "9a39ef7b-49bb-44ca-acb5-90003026eb4f",
