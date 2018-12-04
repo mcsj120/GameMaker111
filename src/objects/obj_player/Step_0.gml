@@ -79,4 +79,3 @@ if (isMoving){
 	}
 }
 		
-	

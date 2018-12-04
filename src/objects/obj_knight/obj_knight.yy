@@ -14,7 +14,7 @@
             "mvc": "1.0",
             "objectId": "0cf84a0c-14a7-4bf2-aa3a-1768e2c6a6ca",
             "propertyId": "2c7fabb0-fddd-46ab-8e58-00f59f93b6e8",
-            "value": "500"
+            "value": "750"
         },
         {
             "id": "f9c68131-9a11-4b73-80eb-861ad2fc1984",
@@ -22,7 +22,7 @@
             "mvc": "1.0",
             "objectId": "0cf84a0c-14a7-4bf2-aa3a-1768e2c6a6ca",
             "propertyId": "378c0482-3fb3-4b4b-87db-beb00ddf52b5",
-            "value": "2.5"
+            "value": "3"
         },
         {
             "id": "1136ad21-1d15-48ee-b1d2-3331e2f4a7ac",
@@ -119,6 +119,14 @@
             "objectId": "0cf84a0c-14a7-4bf2-aa3a-1768e2c6a6ca",
             "propertyId": "1dd53dd1-87d8-4260-9fe5-3cdaea699ee5",
             "value": "obj_coin_silver"
+        },
+        {
+            "id": "9340b24c-8905-453d-8668-7ccbf24ecb4f",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "0cf84a0c-14a7-4bf2-aa3a-1768e2c6a6ca",
+            "propertyId": "f79ad08c-8691-41f0-9415-af3c85c1efd0",
+            "value": "100"
         }
     ],
     "parentObjectId": "0cf84a0c-14a7-4bf2-aa3a-1768e2c6a6ca",

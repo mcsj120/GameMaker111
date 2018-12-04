@@ -27,17 +27,24 @@ if(!over)
 			{
 				if(iterator == 0)
 				{
-					createAllPaths(obj_golem)
+					createAllPaths(obj_orc)
 					spawning = false
 					iterator++;
-					alarm[10] = 5 * room_speed
+					alarm[10] = 1 * room_speed
 				}
 				else if(iterator == 1)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 2)
 				{
 					createAllPaths(obj_archer)
 					spawning = false
 					iterator++;
-					alarm[10] = 5 * room_speed
+					alarm[10] = 1 * room_speed
 					finished = true
 				}
 			}
@@ -48,14 +55,28 @@ if(!over)
 			{
 				if(iterator == 0)
 				{
-					createAllPaths(obj_golem)
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 1)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 2)
+				{
+					createAllPaths(obj_archer)
 					spawning = false
 					iterator++;
 					alarm[10] = 5 * room_speed
 				}
-				else if(iterator == 1)
+				else if(iterator == 3)
 				{
-					createAllPaths(obj_archer)
+					createAllPaths(obj_mage)
 					spawning = false
 					iterator++;
 					alarm[10] = 5 * room_speed
@@ -76,10 +97,45 @@ if(!over)
 				}
 				else if(iterator == 1)
 				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 2)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 3)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 3 * room_speed
+				}
+				else if(iterator == 4)
+				{
 					createAllPaths(obj_archer)
 					spawning = false
 					iterator++;
-					alarm[10] = 5 * room_speed
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 5)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 6)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
 					finished = true
 				}
 			}
@@ -97,10 +153,24 @@ if(!over)
 				}
 				else if(iterator == 1)
 				{
-					createAllPaths(obj_archer)
+					createAllPaths(obj_knight)
 					spawning = false
 					iterator++;
 					alarm[10] = 5 * room_speed
+				}
+				else if(iterator == 2)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 3)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
 					finished = true
 				}
 			}
@@ -114,14 +184,63 @@ if(!over)
 					createAllPaths(obj_golem)
 					spawning = false
 					iterator++;
-					alarm[10] = 5 * room_speed
+					alarm[10] = 2 * room_speed
 				}
 				else if(iterator == 1)
 				{
-					createAllPaths(obj_archer)
+					createAllPaths(obj_golem)
 					spawning = false
 					iterator++;
-					alarm[10] = 5 * room_speed
+					alarm[10] = 3 * room_speed
+				}
+				else if(iterator == 2)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 3)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 4)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 5)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 6)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 3 * room_speed
+				}
+				else if(iterator == 7)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 8)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
 					finished = true
 				}
 			}
@@ -139,7 +258,63 @@ if(!over)
 				}
 				else if(iterator == 1)
 				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 5 * room_speed
+				}
+				else if(iterator == 2)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 3)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 4)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 5)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 6)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 7)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 8)
+				{
 					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 5 * room_speed
+				}
+				else if(iterator == 9)
+				{
+					createAllPaths(obj_orc)
 					spawning = false
 					iterator++;
 					alarm[10] = 5 * room_speed
@@ -156,9 +331,93 @@ if(!over)
 					createAllPaths(obj_golem)
 					spawning = false
 					iterator++;
-					alarm[10] = 5 * room_speed
+					alarm[10] = 3 * room_speed
 				}
 				else if(iterator == 1)
+				{
+					createAllPaths(obj_golem)
+					spawning = false
+					iterator++;
+					alarm[10] = 3 * room_speed
+				}
+				else if(iterator == 2)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 3)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 4)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 5)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 6)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 7)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 8)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 9)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 5 * room_speed
+				}
+				else if(iterator == 10)
+				{
+					createAllPaths(obj_golem)
+					spawning = false
+					iterator++;
+					alarm[10] = 3 * room_speed
+				}
+				else if(iterator == 11)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 12)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 13)
 				{
 					createAllPaths(obj_archer)
 					spawning = false
@@ -177,9 +436,191 @@ if(!over)
 					createAllPaths(obj_golem)
 					spawning = false
 					iterator++;
-					alarm[10] = 5 * room_speed
+					alarm[10] = 1 * room_speed
 				}
 				else if(iterator == 1)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 2)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 3)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 4)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 5)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 6)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 7)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 8)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 9)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 10)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 11)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 12)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 13)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 14)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 15)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 16)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 17)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 18)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 19)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 20)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 21)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 22)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 23)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 5 * room_speed
+				}
+				else if(iterator == 24)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 3 * room_speed
+				}
+				else if(iterator == 25)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 26)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 27)
 				{
 					createAllPaths(obj_archer)
 					spawning = false
@@ -198,11 +639,32 @@ if(!over)
 					createAllPaths(obj_golem)
 					spawning = false
 					iterator++;
-					alarm[10] = 5 * room_speed
+					alarm[10] = 4 * room_speed
 				}
 				else if(iterator == 1)
 				{
-					createAllPaths(obj_archer)
+					createAllPaths(obj_golem)
+					spawning = false
+					iterator++;
+					alarm[10] = 4 * room_speed
+				}
+				else if(iterator == 2)
+				{
+					createAllPaths(obj_golem)
+					spawning = false
+					iterator++;
+					alarm[10] = 4 * room_speed
+				}
+				else if(iterator == 3)
+				{
+					createAllPaths(obj_golem)
+					spawning = false
+					iterator++;
+					alarm[10] = 4 * room_speed
+				}
+				else if(iterator == 4)
+				{
+					createAllPaths(obj_golem)
 					spawning = false
 					iterator++;
 					alarm[10] = 5 * room_speed
@@ -219,11 +681,88 @@ if(!over)
 					createAllPaths(obj_golem)
 					spawning = false
 					iterator++;
-					alarm[10] = 5 * room_speed
+					alarm[10] = 4 * room_speed
 				}
 				else if(iterator == 1)
 				{
-					createAllPaths(obj_archer)
+					createAllPaths(obj_golem)
+					spawning = false
+					iterator++;
+					alarm[10] = 4 * room_speed
+				}
+				else if(iterator == 2)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 3)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 5 * room_speed
+				}
+				else if(iterator == 4)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 5)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 6)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 7)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 8)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 9)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 10)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 11)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 12)
+				{
+					createAllPaths(obj_mage)
 					spawning = false
 					iterator++;
 					alarm[10] = 5 * room_speed
@@ -237,17 +776,115 @@ if(!over)
 			{
 				if(iterator == 0)
 				{
-					createAllPaths(obj_golem)
+					createAllPaths(obj_knight)
 					spawning = false
 					iterator++;
-					alarm[10] = 5 * room_speed
+					alarm[10] = 2 * room_speed
 				}
 				else if(iterator == 1)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 2)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 3)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 4)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 5)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 6)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 7)
 				{
 					createAllPaths(obj_archer)
 					spawning = false
 					iterator++;
 					alarm[10] = 5 * room_speed
+				}
+				else if(iterator == 8)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 9)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 10)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 11)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 12)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 13)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 14)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 15)
+				{
+					createAllPaths(obj_golem)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
 					finished = true
 				}
 			}
@@ -261,14 +898,266 @@ if(!over)
 					createAllPaths(obj_golem)
 					spawning = false
 					iterator++;
-					alarm[10] = 5 * room_speed
+					alarm[10] = 2 * room_speed
 				}
 				else if(iterator == 1)
+				{
+					createAllPaths(obj_golem)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 2)
+				{
+					createAllPaths(obj_golem)
+					spawning = false
+					iterator++;
+					alarm[10] = 3 * room_speed
+				}
+				else if(iterator == 3)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 4)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 4 * room_speed
+				}
+				else if(iterator == 5)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 6)
 				{
 					createAllPaths(obj_archer)
 					spawning = false
 					iterator++;
-					alarm[10] = 5 * room_speed
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 7)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 8)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 9)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 10)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 11)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 12)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 3 * room_speed
+				}
+				else if(iterator == 13)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 14)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 15)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 4 * room_speed
+				}
+				else if(iterator == 16)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 17)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 18)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 19)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 20)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1.5 * room_speed
+				}
+				else if(iterator == 21)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 3 * room_speed
+				}
+				else if(iterator == 22)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 23)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 4 * room_speed
+				}
+				else if(iterator == 24)
+				{
+					createAllPaths(obj_golem)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 25)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 26)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 27)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 28)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 29)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 3 * room_speed
+				}
+				else if(iterator == 30)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 31)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 32)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 33)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 34)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 35)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 36)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 37)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
 					finished = true
 				}
 			}
@@ -282,14 +1171,224 @@ if(!over)
 					createAllPaths(obj_golem)
 					spawning = false
 					iterator++;
-					alarm[10] = 5 * room_speed
+					alarm[10] = 2 * room_speed
 				}
 				else if(iterator == 1)
+				{
+					createAllPaths(obj_golem)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 2)
+				{
+					createAllPaths(obj_golem)
+					spawning = false
+					iterator++;
+					alarm[10] = 3 * room_speed
+				}
+				else if(iterator == 3)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 4)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 4 * room_speed
+				}
+				else if(iterator == 5)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 6)
 				{
 					createAllPaths(obj_archer)
 					spawning = false
 					iterator++;
-					alarm[10] = 5 * room_speed
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 7)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 8)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 9)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 10)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 11)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 12)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 3 * room_speed
+				}
+				else if(iterator == 13)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 14)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 15)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 4 * room_speed
+				}
+				else if(iterator == 16)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 17)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 18)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 19)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 20)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1.5 * room_speed
+				}
+				else if(iterator == 21)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 3 * room_speed
+				}
+				else if(iterator == 22)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 23)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 4 * room_speed
+				}
+				else if(iterator == 24)
+				{
+					createAllPaths(obj_golem)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 25)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 26)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 27)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 28)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 29)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 3 * room_speed
+				}
+				else if(iterator == 30)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 31)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
 					finished = true
 				}
 			}
@@ -300,17 +1399,227 @@ if(!over)
 			{
 				if(iterator == 0)
 				{
-					createAllPaths(obj_golem)
+					createAllPaths(obj_orc)
 					spawning = false
 					iterator++;
-					alarm[10] = 5 * room_speed
+					alarm[10] = 0.25 * room_speed
 				}
 				else if(iterator == 1)
 				{
-					createAllPaths(obj_archer)
+					createAllPaths(obj_orc)
 					spawning = false
 					iterator++;
-					alarm[10] = 5 * room_speed
+					alarm[10] = 0.25 * room_speed
+				}
+				else if(iterator == 2)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 3)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 4)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 5)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 6)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 7)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 8)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 9)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 10)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 11)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 12)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 13)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 14)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 15)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 16)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 17)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 18)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 19)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 20)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 21)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 22)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 23)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 24)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 25)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 26)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 27)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 28)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 29)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 30)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 31)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
 					finished = true
 				}
 			}
@@ -324,18 +1633,243 @@ if(!over)
 					createAllPaths(obj_golem)
 					spawning = false
 					iterator++;
-					alarm[10] = 5 * room_speed
+					alarm[10] = 2 * room_speed
 				}
 				else if(iterator == 1)
+				{
+					createAllPaths(obj_golem)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 2)
+				{
+					createAllPaths(obj_golem)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 3)
+				{
+					createAllPaths(obj_golem)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 4)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 5)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 6)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 7)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 8)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 5 * room_speed
+				}
+				else if(iterator == 9)
+				{
+					createAllPaths(obj_golem)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 10)
+				{
+					createAllPaths(obj_golem)
+					spawning = false
+					iterator++;
+					alarm[10] = 3 * room_speed
+				}
+				else if(iterator == 11)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 12)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 13)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 14)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 15)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 16)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 3 * room_speed
+				}
+				else if(iterator == 17)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 3 * room_speed
+				}
+				else if(iterator == 18)
 				{
 					createAllPaths(obj_archer)
 					spawning = false
 					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 19)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 20)
+				{
+					createAllPaths(obj_archer)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 21)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 22)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
 					alarm[10] = 5 * room_speed
+				}
+				else if(iterator == 23)
+				{
+					createAllPaths(obj_golem)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 24)
+				{
+					createAllPaths(obj_golem)
+					spawning = false
+					iterator++;
+					alarm[10] = 4 * room_speed
+				}
+				else if(iterator == 25)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 26)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 27)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 28)
+				{
+					createAllPaths(obj_orc)
+					spawning = false
+					iterator++;
+					alarm[10] = 1 * room_speed
+				}
+				else if(iterator == 29)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 30)
+				{
+					createAllPaths(obj_knight)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 31)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 2 * room_speed
+				}
+				else if(iterator == 32)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
+				}
+				else if(iterator == 33)
+				{
+					createAllPaths(obj_mage)
+					spawning = false
+					iterator++;
+					alarm[10] = 0.5 * room_speed
 					finished = true
 				}
 			}
 		}
+		/*
 		else if(rounds == 15)
 		{
 			if(spawning == true)
@@ -440,8 +1974,9 @@ if(!over)
 					finished = true
 				}
 			}
-		}
+		}*/
 
 	}
 
 }
+

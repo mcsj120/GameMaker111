@@ -17,11 +17,12 @@ if (sprite_index != spr_death){
 			sprite_index = spr_walk_south
 			image_speed = 1
 		}
-}
+	}
 // If the enemy has been targeted, and they are not within range of the
 // player, they will continue to walk toward the player until they are
 // within attacking range.
- else {
+	else {
+	self.walkSpeed += 0.01
 	var distanceFromPlayer = point_distance(x, y, obj_player.x, obj_player.y)
 	if (distanceFromPlayer > attackRange){
 		if (direction >= 315 || direction <= 45){

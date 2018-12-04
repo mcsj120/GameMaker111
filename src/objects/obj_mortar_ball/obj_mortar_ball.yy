@@ -5,12 +5,12 @@
     "name": "obj_mortar_ball",
     "eventList": [
         {
-            "id": "15a83102-1c46-4545-95a4-a790c7cd815b",
+            "id": "79468280-9ae2-4cc4-a725-1e7dd1c7bbbc",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 40,
+            "enumb": 0,
             "eventtype": 7,
             "m_owner": "74ab2af3-83e3-40b3-960e-9bb10f292b49"
         }
